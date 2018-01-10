@@ -5,6 +5,8 @@ public class Loteria {
 	public static void main(String[] args) {
         int [] numeros=new int[6];
         int generados=0;
+        //comentario de la version 2
+        //generamos numeros aleatorios hasta conseguir 6 diferentes
         while(generados<6){
             int n=(int)(Math.random()*49+1);
             if(!existe(n,generados,numeros)){
